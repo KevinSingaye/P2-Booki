@@ -1,0 +1,75 @@
+@media screen and (max-width: 992px) {
+    .menu {
+        position: relative;
+        left: 0px;
+    }
+    .enligne {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #filters {
+        margin-top: 5px;
+        flex-direction: column;
+    }
+    .filters {
+        display: flex;
+        align-self: flex-start;
+        padding-left: 25px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .box a {
+        margin: 10px 20px;
+    }
+    .hebergement {
+        width: 85%;
+        justify-content: center;
+    }
+    .hebergement article {
+        margin: 20px;
+        width: 240px;
+    }
+    .lpp {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin-bottom: 25px;
+        justify-self: center;
+        position: relative;
+        left: 20px;
+    }
+    .titre-lpp {
+        line-height: 0.5;
+        padding-left: 20px;
+    }
+    .lpp article {
+        margin-top: 45px;
+        margin-bottom: 30px;
+        width: auto;
+        justify-content: start;
+    }
+    .lpp article img {
+        width: 228px;
+    }
+    .actmarseille article {
+        width: auto;
+    }
+    .fort {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .fort article {
+        width: 285px;
+    }
+    .notre {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .notre article {
+        width: 285px;
+    }
+    footer section {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}

@@ -1,0 +1,204 @@
+@media screen and (max-width: 767px) {
+    header {
+        position: relative;
+        left: -25px;
+    }
+    header nav .menu {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        width: 100px;
+        height: auto;
+    }
+    .menu {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        left: -20px;
+    }
+    .menu .actif {
+        border-top: none;
+        color: black;
+        border-bottom: 3px solid #0065FC;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .menu:hover {
+        color: #0065FC;
+    }
+    .menu a {
+        border-bottom: 3px solid lightgray;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .menu a:hover {
+        color: #0065FC;
+    }
+    .topnav .recherche-container button {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .search-input {
+        display: none;
+    }
+    .search-input2 {
+        display: flex;
+    }
+    .box a {
+        margin-bottom: 10px;
+    }
+    .enligne {
+        position: relative;
+        left: -25px;
+    }
+    .titre-lpp .fas {
+        position: relative;
+        top: -17px;
+    }
+    .lpp article {
+        width: 330px;
+        position: relative;
+        left: -18px;
+    }
+    .lpp article img {
+        width: 105px;
+    }
+    .container-hebergement {
+        width: 340px;
+    }
+    .hebergement {
+        background-color: white;
+    }
+    .hebergement article {
+        width: 340px;
+        margin: 20px;
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        position: relative;
+        left: -20px;
+    }
+    .container-actmarseille {
+        justify-content: center;
+        position: relative;
+        right: -30px;
+    }
+    .actmarseille article {
+        width: 350px;
+    }
+    .actmarseille article h3 {
+        font-size: 16px;
+    }
+    .port article {
+        width: 350px;
+    }
+    .port article img {
+        width: 100%;
+        height: 150px;
+    }
+    .notre {
+        flex-direction: column;
+    }
+    .fort {
+        flex-direction: column;
+    }
+    .parc article {
+        width: 350px;
+        height: 220px;
+    }
+    .parc article img {
+        width: 100%;
+        height: 150px;
+    }
+    footer {
+        flex-direction: column;
+        height: 550px;
+    }
+    footer section {
+        margin-left: 30px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        position: relative;
+        bottom: -25px
+    }
+    footer section:nth-child(2) {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    header nav {
+        flex-direction: column;
+    }
+    .lpp {
+        width: 88%;
+    }
+    .titre-lpp {
+        padding-left: 10px;
+    }
+    .titre-lpp h2 {
+        font-size: 22px;
+    }
+    .hebergement {
+        width: 80%;
+    }
+    .actmarseille {
+        width: 80%;
+    }
+    .actmarseille article {
+        width: 340px;
+        position: relative;
+        left: -15px;
+    }
+    .port article {
+        width: 340px;
+    }
+    .port article img {
+        width: 340px
+    }
+    .parc article {
+        width: 340px;
+    }
+    .parc article img {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header nav .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .lpp {
+        width: 90%;
+    }
+    .hebergement {
+        width: 90%;
+    }
+    .container-actmarseille article {
+        position: relative;
+        left: 0px;
+    }
+    footer {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lpp {
+        width: 310px;
+    }
+    .hebergement {
+        width: 300px;
+    }
+    .actmarseille {
+        position: relative;
+        left: 0px;
+    }
+}
